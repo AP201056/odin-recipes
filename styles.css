@@ -1,0 +1,54 @@
+html {background-color: black;}
+
+body {background-color: black;
+color: white;
+font-family: fantasy;}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img.chef {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol,
+p {
+    font-size: 20px;
+
+}
+
+div.mainpage {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 500px;
+}
