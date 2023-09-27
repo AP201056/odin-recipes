@@ -1,54 +1,45 @@
-html {background-color: black;}
+html {
+    background-color: gold
+}
 
-body {background-color: black;
-color: white;
-font-family: fantasy;}
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt
+}
 
-h1 {
+* {
+    box-sizing: border-box;
     text-align: center;
-    background-color: black;
-    color: white;
-    
-}
-
-img {
-    width: 500px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.column {
-    float: left;
-    width: 30%;
-    height: auto;
-    padding: 5px;
-    vertical-align: top;
-    text-align: center;
-    margin-bottom: 20px; 
-}
-
-.container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-img.chef {
-    max-width: 100%;
-    height: auto;
 }
 
 ul,
-ol,
-p {
-    font-size: 20px;
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border: 10px solid black;
+}
+
+.column {
+display: inline-block;
+margin: 10px;
+border:10px solid rgb(0, 0, 0);
+padding: 20px;
+background-color: rgb(255, 255, 255);
+height: 550px;
+width: 550px;
 
 }
 
-div.mainpage {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 500px;
+.container {
+text-align: center;
+    }
+
+.recipes-list {
+font-weight: bold;
 }
